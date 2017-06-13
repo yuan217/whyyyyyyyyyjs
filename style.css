@@ -1,0 +1,483 @@
+* {
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+#wrapper {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+  width: 1257px;
+  height: 700px;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+}
+
+.bg {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+.sec{
+
+  /*height: 100%;*/
+}
+
+#situation{
+
+  background-image: url("img/background-02.jpg");
+}
+
+#issue{
+  display: inline-flex;
+  background-image: url("img/background-04.jpg");
+}
+
+#petition{
+  background-image: url("img/background-08.jpg");
+}
+
+.vertical{
+  display: inline-block;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  font-size: 10px;
+  background-color: transparent;
+  font-family: "Gill Sans",  "sans-serif";
+}
+
+.title2 h1{
+    color: grey;
+}
+
+.title2h2{
+  display: inline-block;
+}
+
+.title2 h2{
+  margin-top: 5px;
+  margin-left: 204px;
+  font-size: 52px;
+  color: #ffffff;
+  font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue";
+}
+
+
+.p{
+  font-family: "Gill Sans",  "sans-serif";
+}
+
+.homepage {
+  width: 100%;
+  height: 700px;
+  background-image: url("img/homepage.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+
+.h1{
+  font-size: 52px;
+  margin: 0;
+  text-align: left;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+}
+
+.ann{
+  overflow: hidden;
+  height: 130px;
+}
+
+#ann_box{
+  position: absolute;
+  left: 70px;
+  top: 160px;
+}
+
+.h2{
+  margin: 0;
+  font-size: 20px;
+  position: absolute;
+  left: 120px;
+  top: 210px;
+  text-align: right;
+  margin: 80px;
+}
+
+.sign{
+  margin: 0 auto;
+  font-size: 20px;
+  position: absolute;
+  left: 170px;
+  top: 350px;
+  text-align: center;
+  border:1px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  width: 128px;
+  height: 47px;
+  padding: 10px 15px 15px 15px;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: "Gill Sans",  "sans-serif";
+}
+
+.sign a:link {color:#000000;}
+.sign a:visited {color:#000000;}
+
+.bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#nav-info {
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  margin-bottom: 10px;
+  width: 1257px;
+  height: 83px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 200;
+
+}
+
+#nav-info>div>h1{
+  position: absolute;
+  left: 144px;
+  top: -6px;
+  font-size: 36px;
+
+}
+
+#nav-info>div:first-child{
+  width: 40%;
+}
+
+#nav-info>div:nth-child(2){
+  width: 60%;
+}
+
+#nav-info> div > nav{
+  height: 33.3%;
+}
+
+.logo {
+  height: 55px;
+  width: 66px;
+  position: absolute;
+  left: 62px;
+  top: 18px;
+  margin-bottom: 10px;
+}
+
+nav ul{
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: "Gill Sans",  "sans-serif";
+
+}
+
+ul a:link {color:#000000;}
+ul a:visited {color:#000000;}
+
+
+.quote{
+  background-color: rgb(242,210,40);
+  height: 200px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+  font-family: "Helvetica-boldObliQue";
+}
+
+.title1{
+  background-color: rgb(206,17,38);
+  color: #ffffff;
+  height: 80px;
+  font-size: 40px;
+  font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin" , "HelveticaNeue";
+}
+
+.title2{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  background-color: rgb(0,38,73);
+  height: 80px;
+
+}
+
+.title3{
+  background-color: rgb(206,17,38);
+  color: #ffffff;
+  height: 80px;
+  font-size: 40px;
+  font-family: "HelveticaNeueThin”, "HelveticaNeue-Thin“, "Helvetica Neue Thin", "HelveticaNeue";
+}
+
+.nonestyle{
+	list-style-type:none;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.index1 .index2 .index3{
+  display: none;
+}
+
+.more{
+  border:2px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-sty
+  le: solid;
+  width: 120px;
+  height: 45px;
+  padding: 10px;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: "Gill Sans",  "sans-serif";
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#petition{
+  /*display: flex;*/
+}
+
+.transparent{
+  display: inline-block;
+  box-sizing: border-box;
+  border:2px;
+  border-bottom-style: solid;
+  border-top-style: none;
+  border-left-style:none;
+  border-right-style:none;
+  -webkit-appearance: none;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  font-size: 8px;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: "Gill Sans",  "sans-serif";
+
+}
+
+.sth{
+  float: left;
+  height: 330px;
+  width: 150px;
+
+}
+
+label{
+  text-align: left;
+  height: 73px;
+  width: 100%;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.fourborder{
+  display: inline-block;
+  box-sizing: border-box;
+  border:2px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  width: 100px;
+  height: 30px;
+  font-size: 10px;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+form{
+  margin: auto;
+}
+
+.title-box{
+  text-align: center;
+  /*display: flex;*/
+  justify-content: center;
+	align-items: center;
+}
+
+.ptitleA{
+	width: 100%;
+	padding: 5px;
+  font-size: 48px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+}
+
+.hashtag{
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 40px;
+  height: 40%;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.sentence1{
+  width: 70%;
+}
+
+.sentence2{
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 20px;
+  height: 10%;
+  width: 30%;
+  color: white;
+  text-align: left;
+  display: flex;
+  /*flex-wrap : nowrap;*/
+   flex-direction:column;
+  /*justify-content: flex-end;*/
+  align-items: center;
+  padding-right: 20px;
+}
+.sentence2 > p{
+  height: 20px;
+  margin-top: -10px;
+}
+
+.issued{
+
+  width: 100%;
+}
+
+.issuet{
+
+  font-family: "Georgia";
+}
+
+.issuep{
+
+  width: 838px;
+  display: inline-block;
+}
+
+.sheltersp{
+  width: 838px;
+  display: inline-block;
+}
+
+.hte{
+  color: white;
+}
+
+.wut{
+  font-size: 36px;
+}
+
+.last{
+  color: white;
+  width: 100%;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.logodown{
+  width: 30%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#downlogo{
+  width: 50px;
+  height: 40px;
+}
+
+.smalltag{
+  color: #ffffff;
+  font-size: 15px;
+  width: 65%;
+  height: 100%;
+  display: inline-flex;
+  /*justify-content: flex-end;*/
+  align-items: center;
+
+}
+
+.window{
+  position: absolute;
+  z-index: 1;
+  width: 381px;
+  height: 450px;
+  background-color: white;
+  border: 0px;
+  margin-top: 120px;
+  margin-left: 438px;
+  box-shadow: 0 0 15px #000000;
+}
+
+.htitle{
+  width: 381px;
+  height: 67px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share{
+  width: 50%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#textbox{
+width:500px;
+position: absolute;
+padding-top: 500px;
+padding-left: 480px;
+}
+
+#carousel{
+  display: block;
+}
+
+.pic{
+}
